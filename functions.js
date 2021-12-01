@@ -12,10 +12,12 @@ Output:
 
 */
 
-export function addExclamationPoints() {
-    return true;
+//export function addExclamationPoints() {
+   // return true;
+//}
+export function addExclamationPoints(someString) {
+return`${someString}!!!`;
 }
-
 // This function should take in a number and multiply it by seven
 
 /* 
@@ -29,7 +31,7 @@ Output:
 */
 
 export function multiplyBySeven(num) {
-    return true;
+    return num * 7;
 }
 
 // This function should take in a number and multiply it by seven then cut the result in half
@@ -46,7 +48,7 @@ Output:
 */
 
 export function multiplyBy12ThenHalve(num) {
-    return true;
+    return num * 12 * .5;
 }
 
 
@@ -63,7 +65,7 @@ Output:
 */
 
 export function divideThenMultiply(firstNumber, secondNumber, thirdNumber) {
-    return true;
+    return firstNumber / secondNumber * thirdNumber;
 }
 
 
@@ -79,8 +81,8 @@ Output:
 [8, 4, 5]
 */
 
-export function returnAsAnArray(firstNumber, secondNumber, thirdNumber) {
-    return true;
+export function returnAsAnArray(firstNumber,secondNumber,thirdNumber) {
+    return [firstNumber, secondNumber,thirdNumber];
 }
 
 // This function should take in three numbers and return those numbers mushed together as a string
@@ -96,7 +98,7 @@ Output:
 */
 
 export function returnAsAString(firstNumber, secondNumber, thirdNumber) {
-    return true;
+    return `${firstNumber,secondNumber,thirdNumber}`;
 }
 
 // This function should take in two numbers and return a greeting announcing that the sum of those numbers is today's lucky number
