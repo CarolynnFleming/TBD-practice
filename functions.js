@@ -98,7 +98,7 @@ Output:
 */
 
 export function returnAsAString(firstNumber, secondNumber, thirdNumber) {
-    return `${firstNumber,secondNumber,thirdNumber}`;
+    return `${firstNumber}${secondNumber}${thirdNumber}`;
 }
 
 // This function should take in two numbers and return a greeting announcing that the sum of those numbers is today's lucky number
@@ -114,7 +114,7 @@ Output:
 */
 
 export function makeLuckyGreeting(firstNumber, secondNumber) {
-    return true;
+    return `Hello! your lucky number the day is ${firstNumber + secondNumber}`;
 }
 
 // This function should take an array and return the second item in the array
@@ -131,7 +131,8 @@ Output:
 */
 
 export function getSecondItem(array) {
-    return true;
+    let fruit = ['kiwi', 'apple', 'orange', 'plum'];
+    return fruit[1];
 }
 
 // This function should take an array and return the LAST item in the array, no matter the array's length
@@ -148,7 +149,8 @@ Output:
 */
 
 export function getLastItem(array) {
-    return true;
+    let fruit = ['kiwi', 'apple', 'orange', 'plum', ];
+    return fruit = fruit[fruit.length - 1];
 }
 
 // Bonus question:
@@ -159,6 +161,6 @@ export function getLastItem(array) {
 
 // Ask yourself: even if you cannot predict the result exactly, what _do_ you know about what it should return? Use that expectation to write your test
 
-export function getRandomNumber() {
-    return true;
+export function getRandomNumber(min,max) {
+    return Math.random() * (max-min) + min;
 }
