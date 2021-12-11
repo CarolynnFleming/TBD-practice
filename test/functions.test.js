@@ -100,7 +100,7 @@ test('getLastItem() This function should take an array and return the LAST item 
     expect.equal(actual, expected, 'return the last item no mater the lenght');
 });
 
-test('getRandomNumber()This function should make a random number between 0 and 5', (expect) => {
+skip('getRandomNumber()This function should make a random number between 0 and 5', (expect) => {
     const expected = ('');
     const actual = getRandomNumber(0, 5);
     expect.equal(actual, expected, 'make random number');
