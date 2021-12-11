@@ -102,6 +102,6 @@ test('getLastItem() This function should take an array and return the LAST item 
 
 test('getRandomNumber()This function should make a random number between 0 and 5', (expect) => {
     const expected = ('');
-        const actual = getRandomNumber(0,5)
+        const actual = getRandomNumber(0, 5);
     expect.equal(actual,expected, 'make random number');
 })

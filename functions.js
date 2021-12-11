@@ -16,7 +16,7 @@ Output:
    // return true;
 //}
 export function addExclamationPoints(someString) {
-return`${someString}!!!`;
+    return `${someString}!!!`;
 }
 // This function should take in a number and multiply it by seven
 
@@ -81,8 +81,8 @@ Output:
 [8, 4, 5]
 */
 
-export function returnAsAnArray(firstNumber,secondNumber,thirdNumber) {
-    return [firstNumber, secondNumber,thirdNumber];
+export function returnAsAnArray(firstNumber, secondNumber, thirdNumber) {
+    return [firstNumber, secondNumber, thirdNumber];
 }
 
 // This function should take in three numbers and return those numbers mushed together as a string
@@ -149,7 +149,7 @@ Output:
 */
 
 export function getLastItem(array) {
-    let fruit = ['kiwi', 'apple', 'orange', 'plum', ];
+    let fruit = ['kiwi', 'apple', 'orange', 'plum'];
     return fruit = fruit[fruit.length - 1];
 }
 
@@ -161,6 +161,6 @@ export function getLastItem(array) {
 
 // Ask yourself: even if you cannot predict the result exactly, what _do_ you know about what it should return? Use that expectation to write your test
 
-export function getRandomNumber(min,max) {
-    return Math.random() * (max-min) + min;
+export function getRandomNumber(min, max) {
+    return Math.random() * (max - min) + min;
 }
